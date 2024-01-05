@@ -1,0 +1,20 @@
+{
+	"$schema": "https://openapi.vercel.sh/vercel.json",
+	"version": 2,
+	"alias": "nuro.dev",
+	"cleanUrls": true,
+	"public": true,
+	"regions": ["lhr1"],
+	"redirects": [
+		{ "source": "/cv", "destination": "https://read.cv/yaquh },
+		{ "source": "/github", "destination": "https://github.com/YaqubDev" },
+		{ "source": "/linkedin", "destination": "https://yaqub.my.id" },
+		{ "source": "/portfolio", "destination": "/projects" },
+		{ "source": "/resume", "destination": "https://github.com/YaqubDev" },
+		{ "source": "/twitter", "destination": "https://yaqub.my.id" },
+		{
+			"source": "/contact",
+			"destination": "https://twitter.com/direct_messages/create/nurodev"
+		}
+	]
+}
